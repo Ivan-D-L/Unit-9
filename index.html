@@ -3,11 +3,11 @@
 <head>
     <title></title>
     <script>
-        // this function fires with paragraph is loaded
+        //
         function bind() {
-            wordItems = document.getElementsByTagName('strong');
-            for (var i = 0; i < wordItems.length; i++) {
-                wordItems[i].onmouseover = function () {
+            glowWord = document.getElementsByTagName('strong');
+            for (var i = 0; i < glowWord.length; i++) {
+                glowWord[i].onmouseover = function () {
                     this.style.color = "red";
                 };
             }
